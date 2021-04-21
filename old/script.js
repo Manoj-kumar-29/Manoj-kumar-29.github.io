@@ -25,5 +25,7 @@ function SendMoney(){
        createPTag.appendChild(textNode);
        var element = document.getElementById("transaction-history-body");
        element.insertBefore(createPTag, element.firstChild);
+       alert((`Rs ${enterAmount} is sent from the sender with Email-id ${EnterName}@email.com
+  to recepient with Email-id ${enterName}@email.com on ${Date()}.`);)
     }
  }
