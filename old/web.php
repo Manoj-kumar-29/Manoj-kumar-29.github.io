@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Tabel with data base</title>
@@ -40,7 +39,7 @@
 
 	 if ($result-> num_rows > 0){
 	 	while ($row = $result-> fetch_assoc()){
-	 		echo "<tr><td>". $row["SlNO"] "<tr><td>". $row["NAME"]"<tr><td>". $row["MAIL ID"]"<tr><td>". $row["AMOUNT"] ."</td></tr>";
+	 		echo "<tr><td>". $row["Sl.NO"] "<tr><td>". $row["NAME"]"<tr><td>". $row["MAIL ID"]"<tr><td>". $row["AMOUNT"] ."</td></tr>";
 	 	}
 	 	echo "</table>";
 
